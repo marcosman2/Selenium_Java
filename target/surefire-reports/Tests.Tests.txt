@@ -1,0 +1,13 @@
+-------------------------------------------------------------------------------
+Test set: Tests.Tests
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 20.678 sec <<< FAILURE!
+correctLogin(Tests.Tests)  Time elapsed: 10.103 sec  <<< FAILURE!
+java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:96)
+	at org.testng.Assert.failNotEquals(Assert.java:776)
+	at org.testng.Assert.assertTrue(Assert.java:44)
+	at org.testng.Assert.assertTrue(Assert.java:54)
+	at PagesObject.PageReservation.assertPageReservation(PageReservation.java:32)
+	at Tests.Tests.correctLogin(Tests.java:51)
+
